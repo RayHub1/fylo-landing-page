@@ -597,6 +597,10 @@ video {
   margin-top: 4rem;
 }
 
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -663,6 +667,10 @@ video {
 
 .w-16 {
   width: 4rem;
+}
+
+.w-28 {
+  width: 7rem;
 }
 
 .flex-col {
@@ -854,6 +862,11 @@ video {
   font-size: 13px;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -862,11 +875,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .text-3xl {
@@ -935,6 +943,15 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.invert {
+  --tw-invert: invert(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 @media (min-width: 1024px) {
   .lg\:ml-2 {
     margin-left: 0.5rem;
@@ -996,6 +1013,10 @@ video {
     gap: 800px;
   }
 
+  .lg\:gap-\[700px\] {
+    gap: 700px;
+  }
+
   .lg\:gap-20 {
     gap: 5rem;
   }
@@ -1012,6 +1033,16 @@ video {
   .lg\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .lg\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .lg\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .lg\:text-left {
