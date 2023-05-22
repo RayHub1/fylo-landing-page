@@ -593,6 +593,10 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-16 {
+  margin-top: 4rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -657,6 +661,10 @@ video {
   width: 18rem;
 }
 
+.w-16 {
+  width: 4rem;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -719,6 +727,10 @@ video {
 
 .gap-24 {
   gap: 6rem;
+}
+
+.gap-16 {
+  gap: 4rem;
 }
 
 .rounded-full {
@@ -806,6 +818,11 @@ video {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .pb-24 {
@@ -937,6 +954,10 @@ video {
 
   .lg\:mr-56 {
     margin-right: 14rem;
+  }
+
+  .lg\:mt-28 {
+    margin-top: 7rem;
   }
 
   .lg\:w-1\/2 {
